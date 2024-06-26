@@ -1,0 +1,50 @@
+.loginpage {
+  background: black;
+  display: flex;
+  height: 100vh;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color: white;
+  justify-content: center;
+  align-items: left;
+  height: 100vh;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+.headertext {
+  padding-bottom: 7rem;
+  color: red;
+}
+.headerp {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+.login-form button {
+  margin-top: 10px;
+}
+
+.x-logo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.x-logo > img {
+  color: white;
+  max-width: 350px;
+  max-height: 350px;
+}
